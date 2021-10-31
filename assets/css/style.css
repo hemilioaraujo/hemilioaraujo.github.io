@@ -1,0 +1,25 @@
+/* #424242 grey darken-3 */
+
+.bt {
+    border-radius: 15px;
+}
+
+.cabecalho {
+  border-radius: 15px;
+  border: black 1px solid;
+  padding: 10px;
+  font-size: x-large;
+  text-shadow: 2px 0px 2px #000000;
+}
+
+.logo {
+  padding: 5px;
+  border: black 1px solid;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.icone_cabecalho {
+  color: blue;
+}

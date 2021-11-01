@@ -2,8 +2,8 @@
   background-color: #380c2a;
 }
 
-.color-third{
-    color: #ffffff;
+.color-third {
+  color: #ffffff;
 }
 
 .color-fourth {
@@ -19,6 +19,9 @@
   border: black 1px solid;
   padding: 10px;
   font-size: x-large;
+}
+
+.text-shadow {
   text-shadow: 2px 0px 2px #000000;
 }
 
@@ -26,6 +29,11 @@
   border-radius: 15px;
   border: black 1px solid;
   margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.foto {
+  border-radius: 15px;
 }
 
 .ml {
@@ -36,11 +44,10 @@
   margin-right: 5px;
 }
 
-
 .rodape {
   border: black 1px solid;
   padding: 10px;
-  text-shadow: 2px 0px 2px #000000;
+  border-radius: 15px;
 }
 
 .logo {

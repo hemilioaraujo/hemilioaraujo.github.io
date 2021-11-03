@@ -44,6 +44,10 @@
   margin-right: 5px;
 }
 
+.mb{
+    margin-bottom: 5px;
+}
+
 .rodape {
   border: black 1px solid;
   padding: 10px;
@@ -60,4 +64,42 @@
 
 .icone_cabecalho {
   color: blue;
+}
+
+
+
+/* CARD */
+.face {
+    position: relative;
+  /* width: 600px; */
+  /* height: 600px; */
+  /* perspective: 700px; */
+}
+
+.front,
+.back {
+  position:absolute;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  transition: 700ms;
+}
+
+.front {
+  z-index: 1;
+}
+
+.back {
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+}
+
+.face:hover .front {
+  transform: rotateY(180deg);
+  z-index: 0;
+}
+
+.face:hover .back {
+  transform: rotateY(0);
+  z-index: 1;
 }

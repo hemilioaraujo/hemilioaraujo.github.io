@@ -30,6 +30,10 @@
   text-shadow: 2px 0px 2px #000000;
 }
 
+.text-size{
+    font-size: x-large;
+}
+
 .main {
   border-radius: 15px;
   border: black 1px solid;
@@ -83,7 +87,6 @@ body.container {
   max-width: 1280px;
   width: 90%;
 }
-
 
 @media only screen and (min-width: 601px) {
   .container {

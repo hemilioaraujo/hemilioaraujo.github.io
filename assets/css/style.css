@@ -2,17 +2,24 @@
   background-color: #380c2a;
 }
 
+
 .color-third {
   color: #ffffff;
 }
 
 .color-fourth {
-  color: #4263eb;
+    color: #4263eb;
 }
 
 .color-success {
-  color: #4e9a06;
+    color: #4e9a06;
 }
+
+a{
+    text-decoration: none;
+    color: #4263eb;
+}
+
 
 .uil {
   font-size: xx-large;
@@ -30,8 +37,12 @@
   text-shadow: 2px 0px 2px #000000;
 }
 
-.text-size{
-    font-size: x-large;
+.text-conteudo-size{
+    font-size: 21px;
+}
+
+.text-subtitulo-size{
+    font-size: 16px;
 }
 
 .main {
@@ -47,6 +58,10 @@
 
 .ml {
   margin-left: 5px;
+}
+
+.mxl {
+  margin-left: 25px;
 }
 
 .mr {
